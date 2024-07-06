@@ -1,0 +1,52 @@
+{
+    "title": "DESARROLLADOR DE SOFTWARE SENIOR | INGENIERO CIVIL INFORMÁTICO",
+    "sidebar": {
+        "aboutMe" : "Sobre mí",
+        "jobExperience": "Experiencia laboral",
+        "education": "Formación académica",
+        "technologies": "Tecnologías",
+        "languages": "Idiomas"
+    },
+    "mainContent": {
+        "aboutMe": {
+            "title": "Sobre mí",
+            "content": "Soy un ingeniero civil informático con más de 5 años de experiencia en desarrollo web full-stack, destacándome en la creación de soluciones digitales robustas y eficientes en equipos ágiles. Además de mis habilidades técnicas, he desarrollado habilidades blandas como la comunicación efectiva, el liderazgo y la adaptabilidad. Mi constante búsqueda de aprendizaje me impulsa a mejorar y crecer profesionalmente en el campo del desarrollo de software."
+        },
+        "jobExperience": {
+            "title": "Experiencia Laboral",
+            "content": [
+                {
+                    "role": "Desarrollador Web",
+                    "companyName": "Transtecnia",
+                    "period": "Abril 2022 - Mayo 2024",
+                    "descriptions": [
+                        "Diseño y desarrollo de portal de administración de contratos orientado al uso de clientes de la empresa.",
+                        "Migración de sistema Legacy a plataforma Cloud y desarrollo de nuevas funcionalidades utilizando Python/Django, base de datos PostgreSQL y herramientas frontend como HTML, CSS, JavaScript y JQuery."
+                    ]
+
+                },
+                {
+                    "role": "Ingeniero de Software",
+                    "companyName": "Linets SPA",
+                    "period": "Marzo 2021 - Abril 2022",
+                    "descriptions": ["Desarrollo de software, WebApps, y OMS para múltiples proyectos enfocados en e-commerce, utilizando Python/Django, React, Vue, Docker, MySQL Prestashop, Magento y Git."]
+                },
+                {
+                    "role": "Full-Stack Developer",
+                    "companyName": "MarketLogic Chile",
+                    "period": "Febrero 2020 - Marzo 2021",
+                    "descriptions": [
+                        "Administración de la plataforma de CRM SharpSpring de la empresa y creación de flujos de procesos de analítica de marketing.",
+                        "Implementación de campañas de marketing utilizando WordPress, CPanel, MailChimp, SharpSpring, Prestashop, Magento y Hootsuite, así como el desarrollo de Landing Pages para las mismas."
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "title": "Formación académica",
+            "instituteName": "Universidad San Sebastián",
+            "career": "Ingeniería Civil en Informática",
+            "period": "Febrero 2015 - Mayo 2020"
+        }
+    }
+}

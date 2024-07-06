@@ -1,0 +1,11 @@
+.job-record {
+    margin-bottom: 5vh;
+}
+
+.job-description {
+    white-space: pre-line;
+}
+
+.job-role {
+    font-weight: bold;
+}

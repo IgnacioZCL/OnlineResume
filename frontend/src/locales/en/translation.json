@@ -1,0 +1,53 @@
+{
+    "title": "SENIOR SOFTWARE DEVELOPER | COMPUTER ENGINEER",
+    "sidebar": {
+        "aboutMe" : "About me",
+        "jobExperience": "Job Experience",
+        "education": "Education",
+        "technologies": "Technologies",
+        "languages": "Languages"
+    },
+    "mainContent": {
+        "aboutMe": {
+            "title": "About Me",
+            "content": "I am a computer engineer with over 5 years of experience in full-stack web development, excelling in creating robust and efficient digital solutions within agile teams. In addition to my technical skills, I have developed soft skills such as effective communication, leadership, and adaptability. My constant pursuit of learning drives me to improve and grow professionally in the field of software development."
+        },
+        "jobExperience": {
+            "title": "Job experience",
+            "content": [
+                {
+                    "role": "Web Developer",
+                    "companyName": "Transtecnia",
+                    "period": "April 2022 - May 2024",
+                    "descriptions": [
+                        "Design and development of a contract management portal tailored for the company's clients' use.",
+                        "Migration of Legacy system to Cloud platform and development of new functionalities using Python/Django, PostgreSQL database, and frontend tools such as HTML, CSS, JavaScript, and JQuery."
+                    ]
+                },
+                {
+                    "role": "Software Engineer",
+                    "companyName": "Linets SPA",
+                    "period": "March 2021 - April 2022",
+                    "descriptions": [
+                        "Development of software, WebApps, and OMS for multiple e-commerce-focused projects, using Python/Django, React, Vue, Docker, MySQL, and Git."
+                    ]
+                },
+                {
+                    "role": "Full-Stack Developer",
+                    "companyName": "MarketLogic Chile",
+                    "period": "February 2020 - March 2021",
+                    "descriptions": [
+                        "Management of the company's SharpSpring CRM platform and creation of marketing analytics process flows.",
+                        "Implementation of marketing campaigns using WordPress, CPanel, MailChimp, SharpSpring, and Hootsuite, as well as the development of Landing Pages for them."
+                    ]
+                }
+            ]
+        },
+        "education": {
+            "title": "Education",
+            "instituteName": "Universidad San Sebastián",
+            "career": "Computer Engineering",
+            "period": "February 2015 - May 2020"
+        }
+    }
+}
