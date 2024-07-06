@@ -21,9 +21,9 @@ function App() {
               <NameTitle />
             </div>
             <Routes>
-              <Route path="/" element={<AboutMe />} />
-              <Route path="/job_experience" element={<JobExperience />} />
-              <Route path="/education" element={<Education />} />
+              <Route path="/OnlineResume/" element={<AboutMe />} />
+              <Route path="/OnlineResume/job_experience" element={<JobExperience />} />
+              <Route path="/OnlineResume/education" element={<Education />} />
             </Routes>
           </Container>
         </div>

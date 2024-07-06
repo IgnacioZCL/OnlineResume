@@ -30,13 +30,13 @@ import {
               <CDBSidebarMenuItem icon="linkedin"><a href="https://www.linkedin.com/in/igna-fig/" target="_blank" rel="noreferrer">/igna-fig/</a></CDBSidebarMenuItem>
               </CDBSidebarMenu>
               <CDBSidebarMenu>
-              <NavLink exact to="/" activeClassName="activeClicked">
+              <NavLink exact to="/OnlineResume/" activeClassName="activeClicked">
                 <CDBSidebarMenuItem icon="user">{t("sidebar.aboutMe")}</CDBSidebarMenuItem>
               </NavLink>
-              <NavLink exact to="/job_experience" activeClassName="activeClicked">
+              <NavLink exact to="/OnlineResume/job_experience" activeClassName="activeClicked">
                 <CDBSidebarMenuItem icon="laptop">{t("sidebar.jobExperience")}</CDBSidebarMenuItem>
               </NavLink>
-              <NavLink exact to="/education" activeClassName="activeClicked">
+              <NavLink exact to="/OnlineResume/education" activeClassName="activeClicked">
                 <CDBSidebarMenuItem icon="university">{t("sidebar.education")}</CDBSidebarMenuItem>
               </NavLink>
               </CDBSidebarMenu>
