@@ -51,3 +51,16 @@
 .name-title {
   margin-bottom: 10vh;
 }
+
+.fade-in-animation {
+  animation: fade-in 3s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
