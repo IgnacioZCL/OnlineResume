@@ -39,6 +39,25 @@
                         "Administración de la plataforma de CRM SharpSpring de la empresa y creación de flujos de procesos de analítica de marketing.",
                         "Implementación de campañas de marketing utilizando WordPress, CPanel, MailChimp, SharpSpring, Prestashop, Magento y Hootsuite, así como el desarrollo de Landing Pages para las mismas."
                     ]
+                },
+                {
+                    "role": "Desarrollador de Software Junior",
+                    "companyName": "Opting SPA",
+                    "period": "Abril 2019 - Febrero 2020",
+                    "descriptions": [
+                        "Desarrollo de software a medida con Java, Angular, Docker y CI/CD con Jenkins.",
+                        "Proyecto de WebScraping I+D con Python/Django, Selenium y BeautifulSoup con integración API REST para envío de alertas.",
+                        "Proyecto de tesis universitario ETL para generación de reportes financieros en PowerBI desde servidores windows Azure."
+                    ]
+                },
+                {
+                    "role": "Practicante Soporte Interno",
+                    "companyName": "Netglobalis SA",
+                    "period": "Enero 2017 - Febrero 2017",
+                    "descriptions": [
+                        "Administración de personal en Windows Active Directory.",
+                        "Instalación y configuración de softwares en el equipo del personal de la empresa."
+                    ]
                 }
             ]
         },
