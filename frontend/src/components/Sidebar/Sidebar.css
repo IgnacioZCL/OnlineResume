@@ -1,8 +1,60 @@
 .main-picture {
-    max-width: 100%;
+    max-width: 80%;
     border-radius: 50%;
 }
 
 .address {
     word-wrap: break-word;
+}
+
+
+
+
+
+/* src/Sidebar.css */
+.sidebar {
+  min-height: 160vh;
+  transition: width 0.3s ease; /* Smooth transition for width changes */
+  overflow-x: hidden; /* Hide overflow when collapsed */
+  padding: 1rem;
+}
+
+.sidebar.open {
+  width: 300px; /* Full width when open */
+}
+
+.sidebar.closed {
+  width: 80px; /* Collapsed width, only showing icons (if you add them) */
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.toggle-btn {
+	display: flex;
+justify-content: end;
+  background: none;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-left: 1vw;
+}
+
+.sidebar-menu li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Hide text when sidebar is closed, can be combined with icons for a better UX */
+.sidebar.closed .sidebar-header h2,
+.sidebar.closed .sidebar-menu span {
+  display: none; 
 }

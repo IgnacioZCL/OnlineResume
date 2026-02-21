@@ -49,11 +49,12 @@
 }
 
 .blue-text {
-  color: #436696;
+  color: #436696 !important;
 }
 
 .name-title {
   margin-bottom: 10vh;
+  margin-top: 7vh;
 }
 
 .fade-in-animation {
@@ -95,4 +96,13 @@
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.sidebar-menu, .sidebar-item {
+	list-style-type: none !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: black !important;
 }

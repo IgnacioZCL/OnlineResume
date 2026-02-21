@@ -55,9 +55,9 @@ function App() {
               <NameTitle />
             </div>
             <RouteTransitions />
-            <div className="text-center bottom-0">
+            {/* <div className="text-center bottom-0">
               Made with ♥ by José Figueroa
-            </div>
+            </div> */}
           </Container>
         </div>
       </Router>
