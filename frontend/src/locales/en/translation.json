@@ -10,11 +10,21 @@
     "mainContent": {
         "aboutMe": {
             "title": "About Me",
-            "content": "I am a computer engineer with over 6 years of experience in full-stack web development, excelling in creating robust and efficient digital solutions within agile teams. In addition to my technical skills, I have developed soft skills such as effective communication, leadership, and adaptability. My constant pursuit of learning drives me to improve and grow professionally in the field of software development."
-        },
+            "content": "Full-Stack Engineer with 6+ years of experience in Agile software development and continuous delivery. Skilled in designing and maintaining CI/CD pipelines for automated testing and deployment of web applications. Excellent team collaborator with demonstrated ability to share knowledge through documentation, mentoring, and technical presentations while embracing feedback and learning from senior and peer developers."
+		},
         "jobExperience": {
             "title": "Job experience",
             "content": [
+				{
+					"role": "Software Engineer II",
+					"companyName": "Ripley Chile",
+					"period": "October 2024 - Present",
+					"descriptions": [
+						"Management and resolution of operational incidents from retail stores, leading investigation, analysis, and resolution efforts to maintain system stability and business continuity.",
+						"Design, coordination, development, and CI/CD deployment of an internal platform for visualizing workday movements of all company POS devices, seller information, connected POS, POS versions, among other data.",
+						"Developed automated reporting solutions for large-scale data processing while optimizing cloud resource usage to reduce operational costs."
+					]
+				},
                 {
                     "role": "Web Developer",
                     "companyName": "Transtecnia",

@@ -10,11 +10,21 @@
     "mainContent": {
         "aboutMe": {
             "title": "Sobre mí",
-            "content": "Soy un ingeniero civil informático con más de 6 años de experiencia en desarrollo web full-stack, destacándome en la creación de soluciones digitales robustas y eficientes en equipos ágiles. Además de mis habilidades técnicas, he desarrollado habilidades blandas como la comunicación efectiva, el liderazgo y la adaptabilidad. Mi constante búsqueda de aprendizaje me impulsa a mejorar y crecer profesionalmente en el campo del desarrollo de software."
+            "content": "Ingeniero Full-Stack con más de 6 años de experiencia en desarrollo de software bajo metodologías ágiles y entrega continua. Especializado en el diseño y mantenimiento de pipelines CI/CD para la automatización de pruebas y despliegue de aplicaciones web. Excelente colaborador en equipo, con capacidad demostrada para compartir conocimiento mediante documentación, mentoría y presentaciones técnicas, así como para recibir retroalimentación y aprender tanto de desarrolladores senior como de sus pares."
         },
         "jobExperience": {
             "title": "Experiencia Laboral",
             "content": [
+				{
+					"role": "Software Engineer II",
+					"companyName": "Ripley Chile",
+					"period": "Octubre 2024 - Presente",
+					"descriptions": [
+						"Diseño y desarrollo de portal de administración de contratos orientado al uso de clientes de la empresa.",
+						"Diseño, coordinación, desarrollo y despliegue mediante CI/CD de una plataforma interna para la visualización de movimientos diarios de todos los dispositivos POS de la empresa, información de vendedores, POS conectados, versiones de POS, entre otros datos.",
+						"Desarrollo de soluciones automatizadas de reportería para el procesamiento de grandes volúmenes de datos, optimizando el uso de recursos en la nube para reducir costos operacionales."
+					]
+				},
                 {
                     "role": "Desarrollador Web",
                     "companyName": "Transtecnia",
