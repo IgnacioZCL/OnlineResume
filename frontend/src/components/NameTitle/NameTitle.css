@@ -7,3 +7,12 @@
     font-weight: bold;
     font-size: 40px;
 }
+
+.cursor-pointer {
+	cursor: pointer;
+};
+
+.download-pdf {
+	text-decoration: none;
+	color: white !important;
+}
