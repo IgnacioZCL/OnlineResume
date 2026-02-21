@@ -48,6 +48,10 @@
   color: white;
 }
 
+.blue-text {
+  color: #436696;
+}
+
 .name-title {
   margin-bottom: 10vh;
 }
@@ -79,4 +83,16 @@
   max-height: 40px;
   filter: brightness(0) invert(1);
   cursor: pointer;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.route-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
 }

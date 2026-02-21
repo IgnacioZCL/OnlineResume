@@ -1,5 +1,6 @@
 .job-record {
     margin-bottom: 5vh;
+	border-bottom: 1px solid #ccc;
 }
 
 .job-description {

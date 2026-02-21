@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react-pdf/renderer": "^3.4.4",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.3",
+    "@react-pdf/renderer": "^4.3.2",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "bootstrap": "^5.3.8",
     "cdbreact": "^1.5.19",
-    "i18next": "^23.11.5",
-    "react": "^18.3.1",
-    "react-bootstrap": "^2.10.4",
-    "react-dom": "^18.3.1",
-    "react-i18next": "^14.1.2",
-    "react-router-dom": "^6.24.1",
+    "i18next": "^25.8.13",
+    "react": "^19.2.4",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.4",
+    "react-i18next": "^16.5.4",
+    "react-router-dom": "^7.13.0",
     "react-scripts": "5.0.1",
     "react-transition-group": "^4.4.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,7 +46,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   },
   "homepage": "http://IgnacioZCL.github.io/OnlineResume"
 }
