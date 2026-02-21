@@ -11,8 +11,3 @@
 .cursor-pointer {
 	cursor: pointer;
 };
-
-.download-pdf {
-	text-decoration: none;
-	color: white !important;
-}

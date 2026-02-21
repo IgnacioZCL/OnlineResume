@@ -5,7 +5,7 @@ import Body from "../Body/Body";
 const JobRecord = (props) => (
   <div className="job-record">
     <h3 className="job-role blue-text">{props.role}</h3>
-    <div className="font-weight-bold">{props.companyName}</div>
+    <h5>{props.companyName}</h5>
     <div className="">{props.period}</div>
     <ul>
       {props.descriptions.map((description) => (

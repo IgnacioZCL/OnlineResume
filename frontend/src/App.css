@@ -102,7 +102,12 @@
 	list-style-type: none !important;
 }
 
-a {
+.sidebar a {
 	text-decoration: none !important;
 	color: black !important;
+}
+
+.resume-download a {
+	text-decoration: none !important;
+	color: white !important;
 }

@@ -13,15 +13,8 @@ const NameTitle = () => {
           <div className="full-name">José Ignacio Figueroa Zúñiga</div>
           <div className="subtitle white-text">{t("title")}</div>
         </Col>
-        <Col
-          className="d-flex justify-content-end align-items-center"
-          style={{ color: "#fff !important" }}
-        >
-          <a
-            href={Resume}
-            style={{ color: "#fff !important" }}
-            download="Jose_Figueroa_Resume.pdf"
-          >
+        <Col className="d-flex justify-content-end align-items-center resume-download">
+          <a href={Resume} download="Jose_Figueroa_Resume.pdf">
             <FaDownload size={30} />
           </a>
         </Col>

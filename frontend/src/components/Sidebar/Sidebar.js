@@ -11,6 +11,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import { FaUniversity } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
+import { MdLanguage } from "react-icons/md";
 
 const Sidebar = () => {
   const { t } = useTranslation();
@@ -95,7 +97,7 @@ const Sidebar = () => {
       {isOpen && (
         <>
           <div className="p-2 bold mb-2 blue-background white-text">
-            {t("sidebar.technologies")}
+            <FaCode className="me-2" /> {t("sidebar.technologies")}
           </div>
           <ul>
             <li>Python</li>
@@ -116,6 +118,7 @@ const Sidebar = () => {
             <li>Linux/Windows/MacOS</li>
           </ul>
           <div className="p-2 bold mb-2 blue-background white-text">
+            <MdLanguage className="me-2" />
             {t("sidebar.languages")}
           </div>
           <ul>
