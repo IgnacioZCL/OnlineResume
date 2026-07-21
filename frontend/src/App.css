@@ -41,7 +41,7 @@
   background-color: #436696;
 }
 .light-blue-background {
-  background-color: rgba(67, 102, 150, 0.2)!important;
+  background-color: rgb(179, 195, 215)!important;
 }
 
 .white-text {
@@ -112,8 +112,58 @@
 	color: white !important;
 }
 
-.sidebar-container {
-	@media (max-width: 768px) {
-		display: none;
-	}
+/* Hamburger button - visible only on mobile */
+.hamburger-btn {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1100;
+  background: #436696;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.hamburger-btn:hover {
+  background: #36527a;
+}
+
+/* Mobile sidebar overlay styles */
+@media (max-width: 768px) {
+  .hamburger-btn {
+    display: block;
+  }
+
+  .sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .sidebar-container.open {
+    transform: translateX(0);
+  }
+
+  /* Backdrop overlay when sidebar is open */
+  .sidebar-backdrop {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+  }
+
+  .sidebar-backdrop.open {
+    display: block;
+  }
 }

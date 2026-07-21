@@ -1,7 +1,5 @@
-import { useState } from "react";
 import "./Sidebar.css";
 import { useTranslation } from "react-i18next";
-import { RxHamburgerMenu } from "react-icons/rx";
 import MainPicture from "../../assets/ignaciofigueroa.jpg";
 import { NavLink } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -14,22 +12,21 @@ import { FaUniversity } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { MdLanguage } from "react-icons/md";
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen = true, onClose }) => {
   const { t } = useTranslation();
   const languages = t("mainContent.languages", { returnObjects: true });
-  const [isOpen, setIsOpen] = useState(true);
 
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
+  const handleNavClick = () => {
+    // Close sidebar on mobile when a nav item is clicked
+    if (onClose && window.innerWidth <= 768) {
+      onClose();
+    }
   };
 
   return (
     <div
       className={`light-blue-background sidebar ${isOpen ? "open" : "closed"}`}
     >
-      <div onClick={toggleSidebar} className="toggle-btn">
-        <RxHamburgerMenu size={24} />
-      </div>
       <div className="sidebar-header">
         {isOpen && (
           <img
@@ -68,7 +65,12 @@ const Sidebar = () => {
           </a>
         </li>
         <li className="sidebar-item">
-          <NavLink exact to="/OnlineResume/" activeClassName="activeClicked">
+          <NavLink
+            exact
+            to="/OnlineResume/"
+            activeClassName="activeClicked"
+            onClick={handleNavClick}
+          >
             <FaUser className="me-2" />
             <span>{t("sidebar.aboutMe")}</span>
           </NavLink>
@@ -78,6 +80,7 @@ const Sidebar = () => {
             exact
             to="/OnlineResume/job_experience"
             activeClassName="activeClicked"
+            onClick={handleNavClick}
           >
             <FaLaptopCode className="me-2" />
             <span>{t("sidebar.jobExperience")}</span>
@@ -88,6 +91,7 @@ const Sidebar = () => {
             exact
             to="/OnlineResume/education"
             activeClassName="activeClicked"
+            onClick={handleNavClick}
           >
             <FaUniversity className="me-2" />
             <span>{t("sidebar.education")}</span>

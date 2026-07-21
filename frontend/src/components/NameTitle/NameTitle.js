@@ -2,9 +2,10 @@ import "./NameTitle.css";
 import { useTranslation } from "react-i18next";
 import { Row, Col } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
-import Resume from "../../assets/resume.pdf";
+import ResumeEnglish from "../../assets/Resumee_Jose_Figueroa_English.pdf";
+import ResumeSpanish from "../../assets/Resumee_Jose_Figueroa_Spanish.pdf";
 
-const NameTitle = () => {
+const NameTitle = ({ selectedLanguage }) => {
   const { t } = useTranslation();
   return (
     <Row className="blue-background title-container white-text">
@@ -13,7 +14,10 @@ const NameTitle = () => {
         <div className="subtitle white-text">{t("title")}</div>
       </Col>
       <Col className="d-md-flex justify-content-end align-items-center resume-download">
-        <a href={Resume} download="Jose_Figueroa_Resume.pdf">
+        <a
+          href={selectedLanguage === "en" ? ResumeEnglish : ResumeSpanish}
+          download={`Jose_Figueroa_Resume_${selectedLanguage === "en" ? "English" : "Spanish"}.pdf`}
+        >
           <FaDownload size={30} />
         </a>
       </Col>

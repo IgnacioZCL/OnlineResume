@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Sidebar from "./components/Sidebar/Sidebar";
 import "./App.css";
 import {
@@ -14,6 +14,9 @@ import JobExperience from "./components/JobExperience/JobExperience";
 import Education from "./components/Education/Education";
 import NameTitle from "./components/NameTitle/NameTitle";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { IoClose } from "react-icons/io5";
+import i18n from "./i18n";
 
 const RouteTransitions = () => {
   let location = useLocation();
@@ -44,16 +47,43 @@ const RouteTransitions = () => {
 };
 
 function App() {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
+
+  const closeSidebar = () => {
+    setSidebarOpen(false);
+  };
+
   return (
     <Router>
-      <LanguageSelector />
+      <LanguageSelector
+        selectedLanguage={selectedLanguage}
+        setSelectedLanguage={setSelectedLanguage}
+      />
+      {/* Hamburger button - visible only on mobile */}
+      <button
+        className="hamburger-btn"
+        onClick={toggleSidebar}
+        aria-label="Toggle menu"
+      >
+        {sidebarOpen ? <IoClose size={24} /> : <RxHamburgerMenu size={24} />}
+      </button>
+      {/* Backdrop for mobile sidebar */}
+      <div
+        className={`sidebar-backdrop ${sidebarOpen ? "open" : ""}`}
+        onClick={closeSidebar}
+      />
       <div className="d-flex">
-        <div className="sidebar-container">
-          <Sidebar />
+        <div className={`sidebar-container ${sidebarOpen ? "open" : ""}`}>
+          <Sidebar isOpen={true} onClose={closeSidebar} />
         </div>
         <Container>
           <div className="name-title">
-            <NameTitle />
+            <NameTitle selectedLanguage={selectedLanguage} />
           </div>
           <RouteTransitions />
           {/* <div className="text-center bottom-0">
