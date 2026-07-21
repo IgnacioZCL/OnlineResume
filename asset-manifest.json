@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/OnlineResume/static/css/main.12513226.css",
-    "main.js": "/OnlineResume/static/js/main.0532776a.js",
+    "main.css": "/OnlineResume/static/css/main.569885fb.css",
+    "main.js": "/OnlineResume/static/js/main.c368d452.js",
     "static/js/453.20359781.chunk.js": "/OnlineResume/static/js/453.20359781.chunk.js",
     "static/media/ignaciofigueroa.jpg": "/OnlineResume/static/media/ignaciofigueroa.e248154f606c8ad0b835.jpg",
-    "static/media/resume.pdf": "/OnlineResume/static/media/resume.f95817627eaeaf2038c4.pdf",
+    "static/media/Resumee_Jose_Figueroa_Spanish.pdf": "/OnlineResume/static/media/Resumee_Jose_Figueroa_Spanish.75843c2e25248e3999f3.pdf",
+    "static/media/Resumee_Jose_Figueroa_English.pdf": "/OnlineResume/static/media/Resumee_Jose_Figueroa_English.832a5323ddb7d657770c.pdf",
     "index.html": "/OnlineResume/index.html",
-    "main.12513226.css.map": "/OnlineResume/static/css/main.12513226.css.map",
-    "main.0532776a.js.map": "/OnlineResume/static/js/main.0532776a.js.map",
+    "main.569885fb.css.map": "/OnlineResume/static/css/main.569885fb.css.map",
+    "main.c368d452.js.map": "/OnlineResume/static/js/main.c368d452.js.map",
     "453.20359781.chunk.js.map": "/OnlineResume/static/js/453.20359781.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12513226.css",
-    "static/js/main.0532776a.js"
+    "static/css/main.569885fb.css",
+    "static/js/main.c368d452.js"
   ]
 }
