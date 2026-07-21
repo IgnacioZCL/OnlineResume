@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/OnlineResume/static/css/main.4152ef2f.css",
-    "main.js": "/OnlineResume/static/js/main.7adc93d3.js",
+    "main.css": "/OnlineResume/static/css/main.12513226.css",
+    "main.js": "/OnlineResume/static/js/main.0532776a.js",
     "static/js/453.20359781.chunk.js": "/OnlineResume/static/js/453.20359781.chunk.js",
     "static/media/ignaciofigueroa.jpg": "/OnlineResume/static/media/ignaciofigueroa.e248154f606c8ad0b835.jpg",
     "static/media/resume.pdf": "/OnlineResume/static/media/resume.f95817627eaeaf2038c4.pdf",
     "index.html": "/OnlineResume/index.html",
-    "main.4152ef2f.css.map": "/OnlineResume/static/css/main.4152ef2f.css.map",
-    "main.7adc93d3.js.map": "/OnlineResume/static/js/main.7adc93d3.js.map",
+    "main.12513226.css.map": "/OnlineResume/static/css/main.12513226.css.map",
+    "main.0532776a.js.map": "/OnlineResume/static/js/main.0532776a.js.map",
     "453.20359781.chunk.js.map": "/OnlineResume/static/js/453.20359781.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4152ef2f.css",
-    "static/js/main.7adc93d3.js"
+    "static/css/main.12513226.css",
+    "static/js/main.0532776a.js"
   ]
 }
