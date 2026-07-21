@@ -10,4 +10,10 @@
 
 .cursor-pointer {
 	cursor: pointer;
-};
+}
+
+.resume-download{
+	@media (max-width: 768px) {
+		text-align: center;
+	}
+}

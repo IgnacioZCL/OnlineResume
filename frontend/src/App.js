@@ -45,23 +45,23 @@ const RouteTransitions = () => {
 
 function App() {
   return (
-    <>
-      <Router>
-        <LanguageSelector />
-        <div className="d-flex">
+    <Router>
+      <LanguageSelector />
+      <div className="d-flex">
+        <div className="sidebar-container">
           <Sidebar />
-          <Container>
-            <div className="name-title">
-              <NameTitle />
-            </div>
-            <RouteTransitions />
-            {/* <div className="text-center bottom-0">
+        </div>
+        <Container>
+          <div className="name-title">
+            <NameTitle />
+          </div>
+          <RouteTransitions />
+          {/* <div className="text-center bottom-0">
               Made with ♥ by José Figueroa
             </div> */}
-          </Container>
-        </div>
-      </Router>
-    </>
+        </Container>
+      </div>
+    </Router>
   );
 }
 

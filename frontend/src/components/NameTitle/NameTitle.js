@@ -7,19 +7,17 @@ import Resume from "../../assets/resume.pdf";
 const NameTitle = () => {
   const { t } = useTranslation();
   return (
-    <>
-      <Row className="blue-background title-container white-text">
-        <Col>
-          <div className="full-name">José Ignacio Figueroa Zúñiga</div>
-          <div className="subtitle white-text">{t("title")}</div>
-        </Col>
-        <Col className="d-flex justify-content-end align-items-center resume-download">
-          <a href={Resume} download="Jose_Figueroa_Resume.pdf">
-            <FaDownload size={30} />
-          </a>
-        </Col>
-      </Row>
-    </>
+    <Row className="blue-background title-container white-text">
+      <Col className="col-12 col-md-6 mb-3 mb-md-0">
+        <div className="full-name">José Ignacio Figueroa Zúñiga</div>
+        <div className="subtitle white-text">{t("title")}</div>
+      </Col>
+      <Col className="d-md-flex justify-content-end align-items-center resume-download">
+        <a href={Resume} download="Jose_Figueroa_Resume.pdf">
+          <FaDownload size={30} />
+        </a>
+      </Col>
+    </Row>
   );
 };
 
